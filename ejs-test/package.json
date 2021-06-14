@@ -1,0 +1,12 @@
+{
+  "name": "ejs-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:watch": "ejs src/index.ejs -o dist/index.ejs -w"
+  },
+  "devDependencies": {
+    "ejs": "^3.1.6"
+  }
+}
